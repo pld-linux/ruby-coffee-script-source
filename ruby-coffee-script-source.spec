@@ -2,7 +2,7 @@
 Summary:	CoffeeScript is a little language that compiles into JavaScript
 Name:		ruby-%{pkgname}
 Version:	1.8.0
-Release:	1
+Release:	2
 License:	Ruby-alike
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
@@ -73,7 +73,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc CHANGELOG.md README.md
 %{ruby_vendorlibdir}/coffee_script
 %{ruby_specdir}/%{pkgname}-%{version}.gemspec
 
